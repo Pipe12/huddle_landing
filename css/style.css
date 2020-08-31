@@ -14,3 +14,11 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+
+.hero {
+  border: 1px solid chocolate;
+}
+
+.header {
+  border: 1px solid blueviolet;
+}
