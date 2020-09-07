@@ -22,3 +22,60 @@ body {
 .header {
   border: 1px solid blueviolet;
 }
+footer
+{
+  display: flex;
+  border: 2px solid blue;
+  background: rgb(1, 76, 95);
+  color: white;
+  justify-content: space-around;
+  align-items: center;
+}
+.footer_social
+{
+    display: flex; 
+    margin: 0 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.footer_social-media
+{
+  display: inherit;
+  align-items: inherit;
+  justify-content: inherit;
+  height: 220px;
+  width: 300px;
+}
+.footer_social-facebook
+{
+    background-image: url("../images/facebook.svg");
+    width: 50px;
+    height: 50px;   
+    background-size: 50px 50px;
+}
+.footer_social-twitter
+{
+    background-image: url("../images/twitter.svg");
+    width: 50px;
+    height: 50px;   
+    background-size: 50px 50px;
+}
+.footer_social-instagram
+{
+    background-image: url("../images/instagram.svg");
+    width: 50px;
+    height: 50px;   
+    background-size: 50px 50px;
+}
+.footer_information
+{
+    display: flex;
+    width: 650px;
+    height: 220px;
+    justify-content: space-around;
+}
+ul
+{
+  list-style: none;
+}
